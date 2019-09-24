@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="es">
+
+<head>
+ <meta charset="UTF-8">
+
+  <title>ENDURO - PRADO Y OLLARCE</title>
+
+
+    <!-- ------------------------------------------------SE CONECTAN LOS ARCHIVOS AL HTML------------------------------------------------ -->
+
+<link rel="stylesheet" href="js/archivo autito.js" />
+
+<link rel="stylesheet" href="js/lvl" />
+<link rel="stylesheet" href="js/lvl2" />
+<link rel="stylesheet" href="js/lvl3" />
+<link rel="stylesheet" href="js/lvl4" />
+<link rel="stylesheet" href="js/lvl5" />
+  
+<link rel="stylesheet" href="css/game.css">
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <title>Proximamente!</title>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,300,700,800' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+        <link href="css/style.css" media="screen" rel="stylesheet">
+        <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+ <body onkeydown="keyboard.listenKeydown(event);" onkeyup="keyboard.listenKeyup(event);" oncontextmenu="return false;" onload="gameLoop();">
+
+<!-- --------------------------------------SE LLAMAN A LOS AUDIOS PARA QUE SUENEN EN EL HTML------------------------------------------>
+
+<link rel="stylesheet" href="js/archivo autito.js">
+
+  <audio id="choque" preload><source src="Sonidos/accidente.mp3" type="audio/mpeg" />Tu navegador no es compatible con el elemento audio de html5. Use un navegador compatible.</audio>
+
+  <audio id="aceleracion" preload><source src="Sonidos/aceleracion.mp3" type="audio/mpeg /> Tu navegador no es compatible con el elemento audio de html5. Use un navegador compatible.</audio>
+
+  <audio id="bocina" preload><source src="Sonidos/bocina.mp3" type="audio/mpeg" />Tu navegador no es compatible con el elemento audio de html5. Use un navegador compatible.</audio>
+
+  <audio id="efectodoppler" preload><source src="Sonidos/EfectoDoppler.mp3" type="audio/mpeg" />Tu navegador no es compatible con el elemento audio de html5. Use un navegador compatible.</audio>
+
+  <audio id="freno" preload><source src="Sonidos/freno.mp3" type="audio/mpeg" />Tu navegador no es compatible con el elemento audio de html5. Use un navegador compatible.</audio>
+
+  <canvas id="gameScreen">Tu navegador no es compatible con el elemento canvas de html5. Use un navegador compatible.</canvas>
+
+<!-- --------------------------------------------- MARCO BLANCO ----------------------------------------------->
+  
+  <canvas id="idCanvas" width="800" height="600" style="border-style:solid; border-width:1px;"></canvas>
+  <canvas height="600px" width="800px" id="micanvas"></canvas>
+
+  <!-- ---------------------------------------------IMAGEN DEL PERSONAJE--------------------------------------------- -->
+  <!-- <img src="img/Personajes/1.jpg" width="204.8" height="157.4" /> -->
+
+<!--CUENTA ATRAS-->
+
+        <div class="container">
+            <header>
+                <h1>Pronto estará en funcionamiento</h1> <!-- SE ESCRIBE DENTRO DEL CONTADOR -->
+            </header>
+
+            <section>
+                <h2>Fecha para entregar el juego</h2>
+
+                <p class="details">Necesitas esperar...</p>
+
+                <div id="counter"></div>
+            </section>
+        </div>
+
+</body>
+
+</html>
