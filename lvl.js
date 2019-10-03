@@ -1,4 +1,4 @@
-var canvas = document.getElementById('canvasParaJuego'),//con esto estoy seleccionando el html 
+var canvas = document.getElementById('index.html'),//con esto estoy seleccionando el html 
     contexto = canvas.getContext('2d');
 
     var spriteSheet = new Image();
